@@ -1,0 +1,359 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eef2e8;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #29382e;
+    line-height: 1.6;
+}
+
+.kontainer {
+    background-color: white;
+    width: 100%;
+    max-width: none;
+    margin: 0 auto;
+    overflow: hidden;
+    min-height: 100vh;
+    box-shadow: 0 0 20px rgba(28, 65, 42, 0.10);
+}
+
+.header {
+    width: 100%;
+    min-height: 190px;
+    background: linear-gradient(135deg, #164e35, #28764b);
+    float: left;
+    text-align: center;
+    color: white;
+    padding: 25px 15px;
+}
+
+.header h1 {
+    padding-top: 10px;
+    margin-bottom: 5px;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+.header p {
+    text-align: center;
+    color: #e1f0d9;
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+.menu {
+    width: 100%;
+    min-height: 55px;
+    background-color: #c3dba8;
+    float: left;
+    text-align: center;
+    line-height: 55px;
+    border-bottom: 3px solid #94b87b;
+}
+
+.menu a {
+    display: inline-block;
+    color: #204c32;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 18px;
+    padding: 0 5px;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: #ffffff;
+    background-color: #34764a;
+}
+
+.kiri {
+    width: 27%;
+    min-height: 650px;
+    background-color: #f1f5eb;
+    float: left;
+    padding: 15px 14px 25px;
+    border-right: 1px solid #dce7d3;
+}
+
+.kiri h3 {
+    color: #205d3b;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.kiri h4 {
+    margin: 15px 2px 8px;
+    color: #286744;
+    font-size: 18px;
+}
+
+.admin {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.kiri hr {
+    border: 0;
+    border-top: 1px solid #c9d9bf;
+    margin: 15px 0;
+}
+
+img.samping {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    margin: 12px auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.kiri p {
+    text-align: justify;
+    margin: 12px 2px;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.kiri ul {
+    padding-left: 25px;
+    margin-right: 5px;
+}
+
+.kiri li {
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+
+.kiri li a {
+    color: #286744;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.kiri li a:hover {
+    color: #b66a24;
+    text-decoration: underline;
+}
+
+.pesan {
+    background-color: #e0edd5;
+    padding: 15px;
+    border-left: 5px solid #438653;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+
+.kanan {
+    width: 73%;
+    min-height: 650px;
+    background-color: #ffffff;
+    float: left;
+    padding: 10px 25px 35px;
+}
+
+.kanan h2 {
+    color: #205d3b;
+    font-size: 32px;
+    line-height: 1.4;
+    margin: 10px 0 15px;
+}
+
+.kanan h3 {
+    text-align: left;
+    color: #286744;
+    font-size: 24px;
+    margin: 30px 0 12px;
+}
+
+.kanan p {
+    text-align: justify;
+    margin: 15px 0;
+    font-size: 17px;
+    line-height: 1.9;
+}
+
+.kanan a {
+    color: #287442;
+    text-decoration: none;
+}
+
+.kanan a:hover {
+    color: #b66a24;
+    text-decoration: underline;
+}
+
+.label {
+    display: inline-block;
+    background-color: #e5efd9;
+    color: #245c38;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 8px 14px;
+    margin: 15px 0 8px;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+}
+
+.tanggal {
+    color: #777777;
+    font-size: 14px !important;
+}
+
+img.berita {
+    width: 30%;
+    max-width: 300px;
+    height: 190px;
+    object-fit: cover;
+    float: left;
+    margin: 8px 20px 12px 0;
+    border-radius: 8px;
+}
+
+img.gambar-besar {
+    width: 100%;
+    max-width: 100%;
+    height: 380px;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+.tombol {
+    display: inline-block;
+    background-color: #287447;
+    color: white !important;
+    padding: 12px 22px;
+    margin: 15px 0;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none !important;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.tombol:hover {
+    background-color: #174526;
+    transform: translateY(-2px);
+}
+
+.footer {
+    width: 100%;
+    min-height: 65px;
+    background-color: #164e35;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+.footer p {
+    font-size: 14px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    color: #e1f0d9;
+}
+
+@media screen and (max-width: 900px) {
+    .kiri {
+        width: 30%;
+    }
+
+    .kanan {
+        width: 70%;
+        padding: 10px 18px 30px;
+    }
+
+    .kanan h2 {
+        font-size: 27px;
+    }
+
+    img.gambar-besar {
+        height: 300px;
+    }
+
+    .menu a {
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header {
+        min-height: 150px;
+        padding: 20px 10px;
+    }
+
+    .header h1 {
+        font-size: 28px;
+        letter-spacing: 1px;
+    }
+
+    .header p {
+        font-size: 15px;
+    }
+
+    .menu {
+        line-height: normal;
+        padding: 10px 5px;
+    }
+
+    .menu a {
+        margin: 4px;
+        padding: 7px;
+        font-size: 13px;
+    }
+
+    .kiri,
+    .kanan {
+        width: 100%;
+        float: left;
+        min-height: auto;
+    }
+
+    .kiri {
+        border-right: none;
+        border-bottom: 1px solid #dce7d3;
+        padding: 15px 20px;
+    }
+
+    .kanan {
+        padding: 15px 18px 30px;
+    }
+
+    .kanan h2 {
+        font-size: 25px;
+    }
+
+    .kanan h3 {
+        font-size: 21px;
+    }
+
+    .kanan p {
+        font-size: 15px;
+    }
+
+    img.samping {
+        max-width: 400px;
+        height: 200px;
+    }
+
+    img.berita {
+        width: 100%;
+        max-width: 100%;
+        height: 220px;
+        float: none;
+        margin: 10px 0;
+    }
+
+    img.gambar-besar {
+        width: 100%;
+        height: auto;
+    }
+}
